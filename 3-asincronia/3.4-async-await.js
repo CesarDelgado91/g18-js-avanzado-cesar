@@ -29,8 +29,9 @@ console.log('============== BLOQUE 5 ==============');
     
 
 
- async function main(){
+ async function main() {
     console.log('1 Presionael boton de comprar');
+    
     try{
         await validatePaymentPromise();
         //await otraPromise();
